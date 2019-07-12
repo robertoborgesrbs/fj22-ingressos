@@ -26,7 +26,7 @@ public class Ingresso {
 	
 	private BigDecimal preco;
 	
-	@Enumerated(EnumType.STRING)
+	@Enumerated(EnumType.ORDINAL)
 	private TipoDeIngresso tipoDeIngresso;
 	
 	public Ingresso() {

@@ -26,4 +26,5 @@ public enum TipoDeIngresso {
 	public String getDescricao() {
 		return desconto.getDescricao();
 	}
+
 }
